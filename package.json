@@ -1,0 +1,16 @@
+{
+  "name": "convert_bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert_bookmarklet_html.js",
+  "dependencies": {
+    "bookmarkletter": "^0.1.1",
+    "ejs": "^2.5.2"
+  },
+  "scripts": {
+    "start": "node convert_bookmarklet_html.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

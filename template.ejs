@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bookmarklets</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h2>Bookmarklets</h2>
+  <% items.forEach(function(item){ %>
+  <h4><a href="<%= item.blet %>"><%= item.filename %></a></h4>
+  <% }) %>
+</body>
+</html>
